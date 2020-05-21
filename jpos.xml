@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+        "jpos/res/jcl.dtd">
+<JposEntries>
+    <!--Saved by JavaPOS jpos.config/loader (JCL) version 2.2.0 on 21.05.20 18:22-->
+
+    <JposEntry logicalName="YJHF500">
+        <creation factoryClass="com.honeywell.jpos.HHPJposServiceInstanceFactory"
+                  serviceClass="com.honeywell.jpos.scanner.ScannerService"/>
+        <vendor name="Honeywell" url="www.honeywell.com"/>
+        <jpos category="Scanner" version="1.14"/>
+        <product description="Honeywell JPOS Service Driver, (c) 2019 Honeywell, Inc."
+                 name="Honeywell Products, Inc. Services for JavaPOS(TM) Standard" url="www.honeywell.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="DECODE_GS1_LTD" type="Integer" value="0"/>
+        <prop name="GOODSCANCOUNT" type="Integer" value="60"/>
+        <prop name="MAXIMUMTIMEOUT" type="String" value="300000"/>
+        <prop name="AUTO_RESYNCH" type="Integer" value="0"/>
+        <prop name="LOGFILE" type="String" value=""/>
+        <prop name="DebugType" type="String" value=""/>
+        <prop name="ClearLogFile" type="String" value="False"/>
+        <prop name="FWDebugFile" type="String" value=""/>
+        <prop name="deviceName" type="String" value="YJHF500"/>
+        <prop name="FWDebugLevel" type="Integer" value="1"/>
+        <prop name="DEVICE_POLL_FREQUENCY" type="Long" value="2000"/>
+        <prop name="LogServiceFile" type="String" value=""/>
+        <prop name="FWDebugType" type="Integer" value="0"/>
+        <prop name="SCANDATAOPTION_01" type="Integer" value="0"/>
+        <prop name="autodetect" type="String" value="True"/>
+        <prop name="CombinedSDKLog" type="String" value="True"/>
+        <prop name="Manufacturer" type="String" value="Honeywell"/>
+        <prop name="Port" type="String" value="COM1"/>
+        <prop name="COMMANDTIMEOUT" type="String" value="10000"/>
+        <prop name="CLAIMTIMEOUT_0" type="Integer" value="500"/>
+        <prop name="NoOfBackupFiles" type="String" value="0"/>
+        <prop name="LogFileSize" type="String" value="10240"/>
+        <prop name="FWProtocolFile" type="String" value=""/>
+        <prop name="SDKDebugLevel" type="Integer" value="0"/>
+    </JposEntry>
+
+</JposEntries>
