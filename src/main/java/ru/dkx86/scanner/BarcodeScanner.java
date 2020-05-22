@@ -78,6 +78,8 @@ public final class BarcodeScanner {
             if (scanner.getClaimed())
                 scanner.release();
             scanner.removeDataListener(dataListener);
+            scanner.removeDirectIOListener(directIOListener);
+            scanner.removeErrorListener(errorListener);
             scanner.close();
         } catch (JposException e) {
             e.printStackTrace();
